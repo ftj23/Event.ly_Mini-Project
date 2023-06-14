@@ -1,0 +1,12 @@
+.event_box {
+    /* display: flex;
+    justify-content: center; */
+    top:100px;
+    width: 500px;
+    margin:0 auto;
+}
+
+#large-textarea{
+    width: 100%;
+    padding: 12px 12px;
+}

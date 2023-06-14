@@ -1,0 +1,149 @@
+/* 
+.container1 {
+    display: flex;
+    aspect-ratio: 30/ 9;
+    width:100%;
+  }
+  
+  .container1 .image {
+    width: 500px;
+    height: 300px;
+    float: left;
+    padding-left: 55px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+    object-fit: fill;
+  }
+  
+  .content1 {
+    width: 40%;
+    height: 100%;
+    float: right;
+    padding-top: 70px;
+
+  }
+  
+  .event-name {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .event-date {
+    font-size: 1.5em;
+  }
+  
+  .event-time {
+    font-size: 1.5em;
+  }
+  
+  .event-location {
+    font-size: 1.5em;
+  }
+  
+  .register-button {
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .desc_box {
+    width: 90%;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .loc_box {
+    width: 90%;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+ */
+
+ .page_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+
+ .container1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+ }
+
+ .container1 img {
+  padding-left: 20px;
+  height: 400px;
+  aspect-ratio: 16/9;
+  margin-block: 18px;
+  margin-right: 18px;
+  border-radius: 5px;
+  float: left;
+ }
+
+.content1 {
+  flex: 1;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.container1 .content1 .event-name {
+  font-size: 90px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-location {
+  margin-bottom: 10px;
+}
+
+.event-date {
+  font-style: italic;
+}
+
+.register-button {
+  background-color: #4556b2;
+    color: white;
+    padding: 12px 20px;
+    aspect-ratio:21/9;
+    width: 100x;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.register-button:hover{
+  background-color: #152b73;
+}
+
+
+.desc_box p{
+  width: 1400px;
+  margin: 0 auto;
+}

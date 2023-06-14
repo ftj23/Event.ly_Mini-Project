@@ -1,0 +1,50 @@
+/* .dashboard .info{
+    float: right;
+    
+}
+.dashboard .user_img{
+    float: left;
+    position: absolute;
+    width :200px;
+    height:200px;
+
+} */
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+   }
+  
+   .user_img img {
+    padding-left: 200px;
+    height: 300px;
+    aspect-ratio: 16/16;
+    margin-block: 18px;
+    margin-right: 18px;
+    border-radius: 5px;
+    float: left;
+   }
+  
+  .info {
+    flex: 1;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .info p{
+    font-size:40px;
+  }
+
+  .user_listed_events {
+    margin-top: 20px;
+    font-weight: bold;
+    clear: both;
+    padding-left: 20px;
+    font-size: 45px;
+    font-family: 'Brush Script MT', cursive;
+  }
+  
+  .event_card {
+    margin-top: 10px;
+  }
